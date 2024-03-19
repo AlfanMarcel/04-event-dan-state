@@ -8,12 +8,24 @@ export default function Gallery() {
     function handleClick() {
         //index = index +1;
         setIndex(index + 1);
+        if ((index + 1)== sculptureList.length){
+            setIndex(index);
+        }
     }
-
+    function downClick() {
+        //index = index +1;
+        setIndex(index - 1);
+        if ((index) == 0){
+            setIndex(index);
+        }
+    }
     let sculpture = sculptureList[index];
 
     return (
-        <>
+        <>  
+            <button
+            onClick={downClick}
+            className="bg-red-500 hover:bg-red-700 p-2 m-2 rounded"> Artikel Sebelumnya</button>
             <button
             onClick={handleClick}
             className="bg-blue-500 hover:bg-blue-700 p-2 m-2 rounded"> Artikel Selanjutnya</button>
