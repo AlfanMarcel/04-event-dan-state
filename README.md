@@ -25,7 +25,7 @@ Fungsi Tombol_2 memiliki 2 parameter yaitu isiPesan dan namaTombol, pada bagian 
                 }
             }
     menambahkan fungsi down click untuk tombol artikel sebelumnya dimana jika index = 0/ poisi di halaman pertama maka setIndex akan tetap sehingga nilai index tidak minus, kurang dari jumlah artikel, dan tidak error jika diklik artikel sebelumnya pada halaman pertama
-![round](assets\01.png)
+![round](assets/01.png)
 
 # Jawaban Soal Praktikum 5
 1. Apa perbedaan dari fungsi Form_2 yang pertama dengan yang kedua?
