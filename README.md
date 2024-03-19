@@ -1,3 +1,9 @@
+|  | Pemrograman Berbasis Framework 2024 |
+| ----------- | --------- |
+| NIM | 2141720266 |
+| Nama | Alfan Marcel Mulyawan |
+| Kelas | TI-3A |
+
 # Jawaban Soal Praktikum 2
 Fungsi Tombol_2 memiliki 2 parameter yaitu isiPesan dan namaTombol, pada bagian <b>page.tsx </b> pemanggilan <i>Tombol_2</i> diikuti dengan isi untuk kedua parameter, yaitu "Ini Pesanku" untuk parameter isiPesan dan nama tombol "Pesan" untuk parameter namaTombol
 
