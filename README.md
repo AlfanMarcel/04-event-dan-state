@@ -35,3 +35,12 @@ Fungsi Tombol_2 memiliki 2 parameter yaitu isiPesan dan namaTombol, pada bagian 
 2. Kenapa perlu menghapus state fullName? Apa keuntungannya?
 
 - Untuk menghindari redundan dan bug pada aplikasi react
+
+# Jawaban Soal Praktikum 6
+1. Apa tujuan dari penulisan ini key={to.email} pada < Chat key={to.email} contact={to} / > ?
+
+- Tujuan dari penulisan key={to.email} pada <Chat key={to.email} contact={to} /> adalah untuk memberikan React cara yang lebih efisien untuk mengidentifikasi setiap komponen dalam daftar yang diberikan.
+
+2. Apa fungsi dari props key tersebut?
+
+- Props key digunakan oleh React untuk membantu dalam proses reconcilation saat merender daftar komponen. Ketika React merender daftar komponen, setiap komponen yang ada dalam daftar tersebut harus memiliki kunci unik yang berbeda.
